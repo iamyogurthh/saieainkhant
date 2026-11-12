@@ -95,7 +95,7 @@ export default function ProjectPage() {
               02 // PROJECTS
             </p>
             <p className="font-mono tracking-[4px] text-[8px] ">
-              TOTAL RECORDS - 3
+              TOTAL RECORDS - {projectElements.length}
             </p>
           </div>
           <div className="mt-6">
