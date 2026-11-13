@@ -1,61 +1,9 @@
-IBM Plex Sans Variable Font
-===========================
+IBM Plex Sans
+=============
 
-This download contains IBM Plex Sans as both variable fonts and static fonts.
-
-IBM Plex Sans is a variable font with these axes:
-  wdth
-  wght
-
-This means all the styles are contained in these files:
-  IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth,wght.ttf
-  IBM_Plex_Sans/IBMPlexSans-Italic-VariableFont_wdth,wght.ttf
-
-If your app fully supports variable fonts, you can now pick intermediate styles
-that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for IBM Plex Sans:
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Thin.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-ExtraLight.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Light.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Regular.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Medium.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-SemiBold.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Bold.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-Thin.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-ExtraLight.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-Light.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-Regular.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-Medium.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-SemiBold.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-Bold.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-Thin.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-ExtraLight.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-Light.ttf
+This project retains the IBM Plex Sans files used by the website:
   IBM_Plex_Sans/static/IBMPlexSans-Regular.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-Medium.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-SemiBold.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-Bold.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-ThinItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-ExtraLightItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-LightItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Italic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-MediumItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-SemiBoldItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_Condensed-BoldItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-ThinItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-ExtraLightItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-LightItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-Italic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-MediumItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-SemiBoldItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans_SemiCondensed-BoldItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-ThinItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-ExtraLightItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-LightItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-Italic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-MediumItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-SemiBoldItalic.ttf
-  IBM_Plex_Sans/static/IBMPlexSans-BoldItalic.ttf
+  IBM_Plex_Sans/static/IBMPlexSans_Condensed-Bold.ttf
 
 Get started
 -----------

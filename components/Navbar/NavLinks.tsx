@@ -11,6 +11,7 @@ const NavLinks = () => {
     { name: 'ABOUT DEVELOPER', link: '/about' },
     { name: 'PROJECTS', link: '/projects' },
     { name: 'CONTACT', link: '/contact' },
+    { name: 'GITHUB', link: 'https://github.com/iamyogurthh' },
   ];
 
   return (

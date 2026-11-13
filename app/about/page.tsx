@@ -1,5 +1,23 @@
 import Image from 'next/image';
 
+const technologies = [
+  { name: 'JavaScript', file: 'JavaScript.svg', width: 30, height: 30 },
+  { name: 'Node.js', file: 'NodeJs.svg', width: 27, height: 30 },
+  { name: 'TypeScript', file: 'TypeScript.svg', width: 30, height: 30 },
+  { name: 'Tailwind CSS', file: 'Tailwind.svg', width: 51, height: 30 },
+  { name: 'React', file: 'React.svg', width: 34, height: 30 },
+  { name: 'Next.js', file: 'NextJs.svg', width: 97, height: 20 },
+  { name: 'C#', file: 'CSharp.svg', width: 27, height: 30 },
+  { name: '.NET', file: 'NET.svg', width: 30, height: 30 },
+  { name: 'Docker', file: 'Docker.svg', width: 43, height: 30 },
+  { name: 'MySQL', file: 'MySQL.svg', width: 31, height: 30 },
+  { name: 'SQLite', file: 'SQLite.svg', width: 27, height: 30 },
+  { name: 'Laravel', file: 'Laravel.svg', width: 29, height: 30 },
+  { name: 'Python', file: 'Python.svg', width: 30, height: 30 },
+  { name: 'FastAPI', file: 'FastAPI.svg', width: 30, height: 30 },
+  { name: 'MongoDB', file: 'MongoDB.svg', width: 14, height: 30 },
+];
+
 export default function AboutPage() {
   return (
     <section
@@ -8,14 +26,17 @@ export default function AboutPage() {
         flex-col 
         min-h-screen
         items-center 
-        justify-center
+        justify-start
+        mt-16
         overflow-auto
 
         lg:flex-row  
         lg:items-start  
         lg:justify-end
-        xl:justify-center  
         lg:p-15
+        lg:mt-0
+
+        xl:justify-center
       "
     >
       {/* ===================== Decorations ================================= */}
@@ -76,6 +97,25 @@ export default function AboutPage() {
             <br className="hidden lg:block" />
             better user experiences.
           </div>
+          <ul
+            aria-label="Technology stack"
+            className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-8 max-w-130"
+          >
+            {technologies.map((technology) => (
+              <li
+                key={technology.file}
+                className="flex h-10 items-center justify-center"
+              >
+                <Image
+                  src={`/techStacks/${technology.file}`}
+                  alt={technology.name}
+                  width={technology.width}
+                  height={technology.height}
+                  className="max-h-8 w-auto object-contain"
+                />
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
       {/* ================================================================= */}

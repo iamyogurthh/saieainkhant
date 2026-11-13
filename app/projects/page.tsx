@@ -42,7 +42,7 @@ export default function ProjectPage() {
         min-h-screen
         items-center 
         justify-start
-        mt-15
+        mt-16
         overflow-auto
 
         lg:flex-row  
